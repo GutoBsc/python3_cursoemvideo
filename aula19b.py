@@ -1,0 +1,12 @@
+"""pessoas = {'nome': 'Augusto', 'sexo': 'M', 'idade': 23}
+pessoas['peso'] = 85.5
+for k, v in pessoas.items():
+    print(f'{k} = {v}')"""
+
+brasil = []
+estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}
+estado2 = {'uf': 'São Paulo', 'sigla': 'SP'}
+brasil.append(estado1)
+brasil.append(estado2)
+
+print(brasil[0]['uf'])
